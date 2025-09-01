@@ -17,16 +17,8 @@ ENV PATH="/opt/venv/bin:${PATH}"
 RUN mkdir -p /oracle /app/tests /tests "/\\tests" /tmp "/\\tmp" "/\\tmp/terminal-bench" \
  && chmod -R 777 /tests "/\\tests" /tmp "/\\tmp"
 
-# Copy test files
-COPY tests/ /app/tests/
-COPY run-tests.sh /app/run-tests.sh
-COPY testsrun-tests.sh /app/testsrun-tests.sh
-COPY testsrun-tests.sh /testsrun-tests.sh
-RUN chmod +x /app/tests/run-tests.sh /app/run-tests.sh /app/testsrun-tests.sh /testsrun-tests.sh
+# Test files will be provided by Terminal-Bench during execution
 
-# Create Oracle solution script and reference code
-COPY solution.sh /oracle/solution.sh
-COPY main.cpp /app/main.cpp
-RUN chmod +x /oracle/solution.sh
+# Oracle solution script will be provided by terminal-bench during execution
 
 WORKDIR /app
