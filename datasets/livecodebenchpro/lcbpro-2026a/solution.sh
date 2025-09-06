@@ -1,19 +1,11 @@
 #!/bin/bash
 # Oracle solution for lcbpro-2026a
 cat > /app/main.cpp << 'EOF'
-#include <cstdio>
-
-int main() {
-
-  long t;
-  scanf("%ld", &t);
-  while (t--) {
-    long x, y, k;
-    scanf("%ld %ld %ld", &x, &y, &k);
-    long m = (x < y ? x : y);
-    printf("0 0 %ld %ld
-0 %ld %ld 0
-", m, m, m, m);
-  }
+#include<bits/stdc++.h>
+using namespace std;
+int t, x, y, k;
+int main(){
+    cin >> t;  while (t--) cin >> x >> y >> k, x = min(x, y),
+        cout << "0 0 " << x << " " << x << "\n" << x << " 0 0 " << x << "\n";
 }
 EOF
