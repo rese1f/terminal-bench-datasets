@@ -55,4 +55,5 @@ int main()
         puts(k < req[x] ? "NO" : "YES");
     }
 }
+
 EOF

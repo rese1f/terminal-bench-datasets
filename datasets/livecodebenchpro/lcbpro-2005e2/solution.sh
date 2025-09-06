@@ -36,4 +36,5 @@ int main()
 		memset(g,0,sizeof(g));
 	}
 }
+
 EOF

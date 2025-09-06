@@ -33,4 +33,5 @@ int main(){
 	cout<<(ans<0?-1:ans);
 	return 0;
 }
+
 EOF

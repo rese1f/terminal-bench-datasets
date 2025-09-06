@@ -33,7 +33,7 @@ int main(){
 				res+=c(i+j-2,i-1)*(l[j]-r[i])%M*ksm(2,n-i-j)%M; res%=M;
 			}
 		}
-		cout<<res<<endl;
+		cout<<res<<'\n';
 	}
 }
 EOF

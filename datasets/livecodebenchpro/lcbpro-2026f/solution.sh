@@ -70,7 +70,7 @@ signed main(){
 		a[x].push_back({op,p,t,i});
 	}
 	dfs(1);
-	for(int i=1;i<=n;i++) if(~res[i]) cout<<res[i]<<endl;
+	for(int i=1;i<=n;i++) if(~res[i]) cout<<res[i]<<'\n';
 	return 0;
 }
 EOF

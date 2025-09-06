@@ -37,8 +37,8 @@ void solve(){
 			if(!f)break;
 		}
 	}
-	cout<<"YES"<<endl;
-	for(int i=ans.size()-1;i>=0;i--)cout<<ans[i].first<<" "<<ans[i].second<<endl;
+	cout<<"YES"<<'\n';
+	for(int i=ans.size()-1;i>=0;i--)cout<<ans[i].first<<" "<<ans[i].second<<'\n';
 }
 signed main(){
 	ios::sync_with_stdio(false);

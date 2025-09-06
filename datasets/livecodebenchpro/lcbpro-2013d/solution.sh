@@ -42,4 +42,5 @@ min: curr or fwd avg if <
 ! floor/ceil
 min diff b/w vals?
 */
+
 EOF

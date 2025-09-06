@@ -21,7 +21,7 @@ signed main(){
 			}
 			dp[l]=dp[r+1]+r-l,ans+=dp[l];
 		}
-		cout<<ans<<endl;
+		cout<<ans<<'\n';
 	}
 	return 0;
 }

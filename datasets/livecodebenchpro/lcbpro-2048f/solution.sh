@@ -30,7 +30,7 @@ void P(){
 	}
 	p(R[0],1,n);
 	for(i=0;i<61;i++)if(d[R[0]][i]==1)break;
-	cout<<i<<endl;
+	cout<<i<<'\n';
 }
 int main(){
 	ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);

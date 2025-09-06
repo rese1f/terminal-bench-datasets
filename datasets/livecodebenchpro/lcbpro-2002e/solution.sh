@@ -28,7 +28,7 @@ void solve()
         ans=max(ans,a);
         cout<<ans<<' ';
     }
-    cout<<endl;
+    cout<<'\n';
 }
 int main()
 {

@@ -27,4 +27,5 @@ int main()
 		puts(f[q[t]][m]?"Yes":"No");
 	}
 }
+
 EOF

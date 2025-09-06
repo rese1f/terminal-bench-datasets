@@ -95,4 +95,5 @@ signed main() {
     return 0;
 }
 
-// model solutionEOF
+// model solution
+EOF

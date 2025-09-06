@@ -37,7 +37,7 @@ void solve() {
         cin>>b[i],calc(b[i],a[i]);
         for(int j=0;j<32;j++){f[i][j]=0;for(int k=0;k<32;k++)f[i][j]=(f[i][j]+f[i-1][j^k]*g[k])%mod;}
     }
-    cout<<f[n][0]<<endl;
+    cout<<f[n][0]<<'\n';
 }
 int main() {
 	ios::sync_with_stdio(0),cin.tie(0);

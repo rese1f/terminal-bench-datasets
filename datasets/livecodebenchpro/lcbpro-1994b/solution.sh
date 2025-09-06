@@ -24,4 +24,5 @@ int main() {
     std::cout << (possible ? "YES" : "NO") << std::endl;
   }
 }
+
 EOF

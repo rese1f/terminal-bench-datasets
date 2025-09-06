@@ -55,4 +55,5 @@ signed main()
 		cout<<ans<<endl;
 	}
 }
+
 EOF

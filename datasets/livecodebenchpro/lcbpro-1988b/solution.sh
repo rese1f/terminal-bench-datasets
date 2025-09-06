@@ -16,9 +16,10 @@ int main(){
 			if(s[i]=='1') y++;
 			else if(s[i]=='0' && s[i-1]!='0') l++;
 		}
-		if(l>=y) cout<<"NO"<<endl;
-		else cout<<"YES"<<endl;
+		if(l>=y) cout<<"NO"<<'\n';
+		else cout<<"YES"<<'\n';
 	}
 	return 0;
 }
+
 EOF
